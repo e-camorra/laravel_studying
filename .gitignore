@@ -5,7 +5,7 @@
 /public/storage
 /storage/*.key
 /vendor
-/docker/postgres-data/base
+/docker/postgres-data/
 .env
 .env.backup
 .env.production
