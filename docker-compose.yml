@@ -48,6 +48,7 @@ services:
     restart: always
     ports:
       - 5432:5432
+    build: ./docker/pgsql
     environment:
       POSTGRES_DB: database_laravel
       POSTGRES_USER: postgres
